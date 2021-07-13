@@ -244,7 +244,9 @@ implements IntfMainConstants, MouseListener
 			String strText = inputTextLabel();
 			if(strText != null)
 			{
-				Label label = new Label(x,y, window.pn.getNumLabel());
+				Label label = new Label();
+				label.moveLabel(x,y);
+				label.setPosicao(window.pn.getNumLabel());
 				label.setTexto(strText);
 				
 				window.pn.addLabel(label);

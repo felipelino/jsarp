@@ -35,22 +35,6 @@ public class Label
 	}
 	
 	/**
-	 * Contrutor que recebe as coordendadas do ponto superior esquerdo.
-	 * 
-	 * @param infEsqX Coordenada X do ponto inferior esquerdo.
-	 * @param infEsqY Coordenada Y do ponto inferior esquerdo.
-	 * @param posicao Posição do rótulo no array de rótulos.
-	 * @since 2.0
-	 */
-	public Label(int infEsqX, int infEsqY, int posicao)
-	{
-		this();
-		infEsq  = new Point(infEsqX, infEsqY);
-		
-		this.posicao = posicao;
-	}
-	
-	/**
 	 * Seta o texto do rótulo.
 	 * @param texto texto do rótulo
 	 * @since 2.0
