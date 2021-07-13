@@ -19,4 +19,4 @@ Run the command: `java -jar ./target/jsarp-1.4-jar-with-dependencies.jar`
 
 # Pre-compiled versions
 
-The folder `binary` has a pre-compiled version for Java 8. You can download and use it with the command: `java -jar jsarp-1.4-jar-with-dependencies-java8.jar`
+The folder `binary` has a pre-compiled version for Java 8. You can download and use it with the command: `java -jar binary/jsarp-1.4-jar-with-dependencies-java8.jar`
