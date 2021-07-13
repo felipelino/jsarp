@@ -5,8 +5,18 @@ JSARP Simulator and Analyzer Petri Nets in Java developed as a the final project
 # Pre-requisites
 
 - Java JDK 1.8
-- Ant 
+- Maven 
 
-# Build
+# Build and Run
 
-ant dist 
+## Build
+
+Run the command: `mvn clean install`
+
+## Run
+
+Run the command: `java -jar ./target/jsarp-1.4-jar-with-dependencies.jar`
+
+# Pre-compiled versions
+
+The folder `binary` has a pre-compiled version for Java 8. You can download and use it with the command: `java -jar jsarp-1.4-jar-with-dependencies-java8.jar`
